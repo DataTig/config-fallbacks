@@ -1,0 +1,27 @@
+title: Code For IATI
+description: Website at https://codeforiati.org/ Source at https://github.com/codeforIATI/codeforiati.github.io
+types:
+- id: projects
+  directory: _projects
+  fields:
+  - id: title
+    key: title
+    title: Title
+  - id: tags
+    key: tags
+    title: Tags
+    type: list-strings
+  - id: link
+    key: link
+    title: Link
+    type: url
+  - id: hidden
+    key: hidden
+    title: Hidden
+    type: boolean
+  default_format: md
+  list_fields:
+    - title
+githost:
+  url: codeforIATI/codeforiati.github.io
+  primary_branch: gh-pages

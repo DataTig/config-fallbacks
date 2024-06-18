@@ -1,0 +1,113 @@
+title: End Of Life
+description: Website at https://endoflife.date/ Source at https://github.com/endoflife-date/endoflife.date
+types:
+- id: products
+  directory: products
+  fields:
+  - id: layout
+    key: layout
+    title: layout
+  - id: title
+    key: title
+    title: title
+  - id: command
+    key: command
+    title: command
+  - id: releasePolicyLink
+    key: releasePolicyLink
+    title: releasePolicyLink
+    type: url
+  - id: permalink
+    key: permalink
+    title: permalink
+  - id: activeSupportColumn
+    key: activeSupportColumn
+    title: activeSupportColumn
+    type: boolean
+  - id: releaseDateColumn
+    key: releaseDateColumn
+    title: releaseDateColumn
+    type: boolean
+  - id: sortReleasesBy
+    key: sortReleasesBy
+    title: sortReleasesBy
+  - id: changelogTemplate
+    key: changelogTemplate
+    title: changelogTemplate
+    type: url
+  - id: iconSlug
+    key: iconSlug
+    title: iconSlug
+  - id: eolColumn
+    key: eolColumn
+    title: eolColumn
+  - id: releases
+    key: releases
+    title: Releases
+    type: list-dicts
+    fields:
+      - id: releaseCycle
+        key: releaseCycle
+        title: releaseCycle
+      - id: releaseDate
+        key: releaseDate
+        title: releaseDate
+        type: date
+      - id: eoas
+        key: eoas
+        title: eoas
+        type: date
+      - id: eol
+        key: eol
+        title: eol
+        type: date
+      - id: latest
+        key: latest
+        title: latest
+      - id: latestReleaseDate
+        key: latestReleaseDate
+        title: latestReleaseDate
+        type: date
+  - id: identifiers
+    key: identifiers
+    title: Identifiers
+    type: list-dicts
+    fields:
+      - id: purl
+        key: purl
+        title: purl
+      - id: repology
+        key: repology
+        title: repology
+  - id: auto_methods
+    key: auto_methods
+    title: Auto Methods
+    type: list-dicts
+    fields:
+      - id: git
+        key: git
+        title: git
+      - id: regex
+        key: regex
+        title: regex
+      - id: release_table
+        key: release_table
+        title: release_table
+      - id: selector
+        key: selector
+        title: selector
+      - id: fields_releaseCycle
+        key: fields/releaseCycle
+        title: Fields releaseCycle
+      - id: fields_releaseDate
+        key: fields/releaseDate
+        title: Fields releaseDate
+      - id: fields_eol
+        key: fields/eol
+        title: Fields eol
+  default_format: md
+  list_fields:
+    - title
+githost:
+  url: endoflife-date/endoflife.date
+  primary_branch: master

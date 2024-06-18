@@ -1,0 +1,41 @@
+title: Jamstack
+description: Website at https://jamstack.org/ Source at https://github.com/jamstack/jamstack.org
+types:
+- id: generators
+  directory: src/site/generators
+  fields:
+  - id: title
+    key: title
+    title: Title
+  - id: repo
+    key: repo
+    title: Repo
+    type: url
+  - id: homepage
+    key: homepage
+    title: Homepage
+    type: url
+  - id: language
+    key: language
+    title: Language
+    type: list-strings
+  - id: license
+    key: license
+    title: License
+    type: list-strings
+  - id: templates
+    key: templates
+    title: Templates
+    type: list-strings
+  - id: description
+    key: description
+    title: Description
+  - id: startertemplaterepo
+    key: startertemplaterepo
+    title: Starter Template Repo
+  default_format: md
+  list_fields:
+    - title
+githost:
+  url: jamstack/jamstack.org
+  primary_branch: main

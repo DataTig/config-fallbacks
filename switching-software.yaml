@@ -1,0 +1,46 @@
+title: Switching Software
+description: Website at https://switching.software Source at https://codeberg.org/swiso/website
+types:
+- id: use
+  directory: content/use
+  default_format: md
+  markdown_body_is_field: body
+  record_id_mode: directory_and_filename
+  fields:
+  - id: title
+    key: title
+    title: Title
+  - id: icon
+    key: icon
+    title: Icon
+  - id: lists
+    key: lists
+    title: Lists
+    type: list-strings
+  - id: replaces
+    key: replaces
+    title: Replaces
+    type: list-strings
+  - id: body
+    key: body
+    title: Body
+    multiline: True
+- id: replaces
+  directory: content/replaces
+  default_format: md
+  record_id_mode: directory_and_filename
+  fields:
+  - id: title
+    key: title
+    title: Title
+  - id: subtitle
+    key: subtitle
+    title: Subtitle
+  - id: provider
+    key: provider
+    title: Provider
+  - id: order
+    key: order
+    title: Order of use records
+    type: list-strings
+

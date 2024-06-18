@@ -1,0 +1,55 @@
+title: Opendata.scot
+description: Website at https://opendata.scot/ Source at https://github.com/OpenDataScotland/jkan
+types:
+- id: datasets
+  directory: _datasets
+  fields:
+  - id: category
+    key: category
+    title: category
+    type: list-strings
+  - id: date_created
+    key: date_created
+    title: date_created
+  - id: date_updated
+    key: date_updated
+    title: date_updated
+  - id: license
+    key: license
+    title: license
+  - id: maintainer
+    key: maintainer
+    title: maintainer
+  - id: notes
+    key: notes
+    title: notes
+  - id: organization
+    key: organization
+    title: organization
+  - id: schema
+    key: schema
+    title: schema
+  - id: title
+    key: title
+    title: title
+  - id: resources
+    key: resources
+    title: Resources
+    type: list-dicts
+    fields:
+      - id: name
+        key: name
+        title: Name
+      - id: format
+        key: format
+        title: Format
+      - id: url
+        key: url
+        title: URL
+        type: url
+  default_format: md
+  list_fields:
+    - title
+githost:
+  url: OpenDataScotland/jkan
+  primary_branch: gh-pages
