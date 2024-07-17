@@ -3,6 +3,7 @@ description: Website at https://opendata.scot/ Source at https://github.com/Open
 types:
 - id: datasets
   directory: _datasets
+  markdown_body_is_field: ---
   fields:
   - id: category
     key: category
