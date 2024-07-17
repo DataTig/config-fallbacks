@@ -28,9 +28,15 @@ types:
   - id: stats_issue_count
     key: stats/issue-count
     title: Stats - Issue Count
+    type: integer
   - id: stats_last_updated
     key: stats/last-updated
     title: Stats - Last Updated
+    type: datetime
+  - id: stats_forks_count
+    key: stats/fork-count
+    title: Stats - Fork Count
+    type: integer
   default_format: yaml
   list_fields:
     - name
