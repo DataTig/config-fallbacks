@@ -1,0 +1,196 @@
+title: Opening up ChatGPT
+description: Website at https://opening-up-chatgpt.github.io/ Source at https://github.com/opening-up-chatgpt/ Data License https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main/projects/A_sample.yaml
+types:
+- id: projects
+  directory: projects
+  fields:
+  - id: project_name
+    key: project/name
+    title: Project Name
+  - id: project_link
+    key: project/link
+    title: Project Link
+    type: url
+  - id: project_notes
+    key: project/notes
+    title: Project Notes
+  - id: project_llmbase
+    key: project/llmbase
+    title: Project llmbase
+  - id: project_rlbase
+    key: project/rlbase
+    title: Project rlbase
+  - id: project_license
+    key: project/license
+    title: Project license
+  - id: org_name
+    key: org/name
+    title: Org Name
+  - id: org_link
+    key: org/link
+    title: Org link
+    type: url
+  - id: org_notes
+    key: org/notes
+    title: Org notes
+  - id: opencode_class
+    key: opencode/class
+    title: Availability Open Code Class
+    description: Should be closed, open or partial.
+  - id: opencode_link
+    key: opencode/link
+    title: Availability Open Code link
+    type: url
+  - id: opencode_notes
+    key: opencode/notes
+    title: Availability Open Code notes
+  - id: llmdata_class
+    key: llmdata/class
+    title: Availability LLM Data Class
+    description: Should be closed, open or partial.
+  - id: llmdata_link
+    key: llmdata/link
+    title: Availability LLM Data link
+    type: url
+  - id: llmdata_notes
+    key: llmdata/notes
+    title: Availability LLM Data notes
+  - id: llmweights_class
+    key: llmweights/class
+    title: Availability LLM Weights Class
+    description: Should be closed, open or partial.
+  - id: llmweights_link
+    key: llmweights/link
+    title: Availability LLM Weights link
+    type: url
+  - id: llmweights_notes
+    key: llmweights/notes
+    title: Availability LLM Weights notes
+  - id: rldata_class
+    key: rldata/class
+    title: Availability RL Data Class
+    description: Should be closed, open or partial.
+  - id: rldata_link
+    key: rldata/link
+    title: Availability RL Data link
+    type: url
+  - id: rldata_notes
+    key: rldata/notes
+    title: Availability RL Data notes
+  - id: rlweights_class
+    key: rlweights/class
+    title: Availability RL Weights Class
+    description: Should be closed, open or partial.
+  - id: rlweights_link
+    key: rlweights/link
+    title: Availability RL Weights link
+    type: url
+  - id: rlweights_notes
+    key: rlweights/notes
+    title: Availability RL Weights notes
+  - id: license_class
+    key: license/class
+    title: Availability License Class
+    description: Should be closed, open or partial.
+  - id: license_link
+    key: license/link
+    title: Availability License link
+    type: url
+  - id: license_notes
+    key: license/notes
+    title: Availability License notes
+  - id: code_class
+    key: code/class
+    title: Documentation Code Class
+    description: Should be closed, open or partial.
+  - id: code_link
+    key: code/link
+    title: Documentation Code link
+    type: url
+  - id: code_notes
+    key: code/notes
+    title: Documentation Code notes
+  - id: architecture_class
+    key: architecture/class
+    title: Documentation Architecture Class
+    description: Should be closed, open or partial.
+  - id: architecture_link
+    key: architecture/link
+    title: Documentation Architecture link
+    type: url
+  - id: architecture_notes
+    key: architecture/notes
+    title: Documentation Architecture notes
+  - id: preprint_class
+    key: preprint/class
+    title: Documentation Preprint Class
+    description: Should be closed, open or partial.
+  - id: preprint_link
+    key: preprint/link
+    title: Documentation Preprint link
+    type: url
+  - id: preprint_notes
+    key: preprint/notes
+    title: Documentation Preprint notes
+  - id: paper_class
+    key: paper/class
+    title: Documentation Paper Class
+    description: Should be closed, open or partial.
+  - id: paper_link
+    key: paper/link
+    title: Documentation Paper link
+    type: url
+  - id: paper_notes
+    key: paper/notes
+    title: Documentation Paper notes
+  - id: modelcard_class
+    key: modelcard/class
+    title: Documentation Modelcard Class
+    description: Should be closed, open or partial.
+  - id: modelcard_link
+    key: modelcard/link
+    title: Documentation Modelcard link
+    type: url
+  - id: modelcard_notes
+    key: modelcard/notes
+    title: Documentation Modelcard notes
+  - id: datasheet_class
+    key: datasheet/class
+    title: Documentation Datasheet Class
+    description: Should be closed, open or partial.
+  - id: datasheet_link
+    key: datasheet/link
+    title: Documentation Datasheet link
+    type: url
+  - id: datasheet_notes
+    key: datasheet/notes
+    title: Documentation Datasheet notes
+  - id: package_class
+    key: package/class
+    title: Access Package Class
+    description: Should be closed, open or partial.
+  - id: package_link
+    key: package/link
+    title: Access Package link
+    type: url
+  - id: package_notes
+    key: package/notes
+    title: Access Package notes
+  - id: api_class
+    key: api/class
+    title: Access API Class
+    description: Should be closed, open or partial.
+  - id: api_link
+    key: api/link
+    title: Access API link
+    type: url
+  - id: api_notes
+    key: api/notes
+    title: Access API notes
+  default_format: yaml
+  list_fields:
+    - project_name
+githost:
+  url: opening-up-chatgpt/opening-up-chatgpt.github.io
+  primary_branch: main
+
