@@ -24,7 +24,7 @@ types:
   - id: body
     key: body
     title: Body
-    multiline: True
+    type: markdown
 - id: replaces
   directory: content/replaces
   default_format: md
