@@ -60,7 +60,7 @@ types:
       - id: eol
         key: eol
         title: eol
-        type: date
+        type: date # Tho sometimes it's boolean false
       - id: latest
         key: latest
         title: latest
@@ -68,6 +68,17 @@ types:
         key: latestReleaseDate
         title: latestReleaseDate
         type: date
+      - id: lts
+        key: lts
+        title: lts
+        type: date # Tho sometimes it's boolean false
+      - id: link
+        key: link
+        title: link
+        type: url  
+      - id: codename
+        key: codename
+        title: codename
   - id: identifiers
     key: identifiers
     title: Identifiers
@@ -79,6 +90,12 @@ types:
       - id: repology
         key: repology
         title: repology
+      - id: cpe
+        key: cpe
+        title: cpe
+      - id: dockerhub
+        key: dockerhub
+        title: dockerhub
   - id: auto_methods
     key: auto_methods
     title: Auto Methods
