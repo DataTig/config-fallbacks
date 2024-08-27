@@ -80,7 +80,7 @@ types:
         key: repology
         title: repology
   - id: auto_methods
-    key: auto_methods
+    key: auto/methods
     title: Auto Methods
     type: list-dicts
     fields:
