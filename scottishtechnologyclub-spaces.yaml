@@ -1,8 +1,9 @@
-title: Scottish Technology Club - Spaces 
+title: Scottish Technology Club - Spaces
 description: Website at https://endoflife.date/ Source at https://github.com/endoflife-date/endoflife.date
 types:
 - id: spaces
   directory: content
+  default_format: md
   fields:
   - id: name
     key: name
