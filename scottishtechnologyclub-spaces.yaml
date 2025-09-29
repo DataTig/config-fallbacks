@@ -1,0 +1,27 @@
+title: Scottish Technology Club - Spaces 
+description: Website at https://endoflife.date/ Source at https://github.com/endoflife-date/endoflife.date
+types:
+- id: spaces
+  directory: content
+  fields:
+  - id: name
+    key: name
+    title: Name
+  - id: city
+    key: city
+    title: City
+  - id: web
+    key: web
+    title: Web
+    type: URL
+  - id: linkedin
+    key: linkedin
+    title: LinkedIn
+    type: URL
+  - id: bluesky
+    key: bluesky
+    title: BlueSky
+    type: URL
+githost:
+  url: scottishtechnologyclub/spaces
+  primary_branch: main
