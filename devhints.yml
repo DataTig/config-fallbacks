@@ -1,0 +1,24 @@
+title: Devhints
+description: Website at https://devhints.io/ Source at https://github.com/rstacruz/cheatsheets
+types:
+- id: sheet
+  directory: .
+  markdown_body_is_field: body
+  default_format: md
+  fields:
+  - id: title
+  - id: category
+  - id: tags
+    type: list-strings
+  - id: prism_languages
+    type: list-strings
+  - id: intro
+  - id: updated
+    type: date
+  - id: weight
+    type: integer
+  - id: body
+    type: markdown
+
+
+

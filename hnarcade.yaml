@@ -1,0 +1,27 @@
+title: HNArcade
+description: Website at https://hnarcade.com/ Source at https://github.com/andrewgy8/hnarcade
+types:
+- id: games
+  directory: docs/games
+  markdown_body_is_field: body
+  default_format: md
+  fields:
+  - id: title
+  - id: tags
+    type: list-strings
+  - id: description
+  - id: dateAdded
+    type: date
+  - id: submissionMethod
+  - id: hnId
+    type: integer
+  - id: points
+    type: integer
+  - id: screenshot
+  - id: sidebar_position
+    type: integer
+  - id: body
+    type: markdown
+
+
+
